@@ -1,0 +1,17 @@
+.env
+.env.*
+
+venv/
+./venv
+
+
+# raw data not to pushed
+data/raw/*
+data/processed/*
+data/intermediate/*
+
+
+
+
+data/*.log
+data/*.jsonl
