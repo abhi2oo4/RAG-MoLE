@@ -1,0 +1,50 @@
+{
+  "split": "test",
+  "model": "minilm",
+  "n_samples": 193,
+  "structure": {
+    "mean_steps_gold": 10.14,
+    "mean_steps_pred": 7.27,
+    "mean_api_steps_gold": 5.22,
+    "mean_api_steps_pred": 5.68,
+    "api_count_exact_%": 28.5,
+    "label_seq_exact_%": 0.0,
+    "label_seq_similarity": 0.59,
+    "empty_intents": 0,
+    "pred_steps": 1404
+  },
+  "retrieval": {
+    "query": {
+      "Hit@1": 1.09,
+      "Hit@5": 2.18,
+      "Hit@10": 3.08,
+      "MRR": 0.0205,
+      "Cov@5": 6.15,
+      "n_gold_steps": 1008
+    },
+    "mole": {
+      "Hit@1": 10.52,
+      "Hit@5": 25.0,
+      "Hit@10": 33.43,
+      "MRR": 0.1768,
+      "Cov@5": 25.0,
+      "n_gold_steps": 1008
+    },
+    "mole_all_steps": {
+      "Hit@1": 12.5,
+      "Hit@5": 30.16,
+      "Hit@10": 39.38,
+      "MRR": 0.2115,
+      "Cov@5": 30.16,
+      "n_gold_steps": 1008
+    },
+    "gold_steps": {
+      "Hit@1": 26.09,
+      "Hit@5": 55.16,
+      "Hit@10": 64.88,
+      "MRR": 0.3899,
+      "Cov@5": 55.16,
+      "n_gold_steps": 1008
+    }
+  }
+}

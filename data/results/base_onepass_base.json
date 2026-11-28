@@ -1,0 +1,12 @@
+{
+  "seconds": 278.9,
+  "n": 193,
+  "gold_api_steps": 1008,
+  "gold_api_exact_name_recall_%": 2.08,
+  "gold_tool_name_recall_%": 4.17,
+  "generated_api_steps": 947,
+  "invented_api_pair_%": 90.39,
+  "invented_tool_%": 73.81,
+  "lines_parsed_%": 97.93,
+  "peak_gpu_gb": 6.99
+}

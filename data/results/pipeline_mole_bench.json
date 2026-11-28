@@ -1,0 +1,50 @@
+{
+  "config": "mole",
+  "split": "test",
+  "n": 193,
+  "adapter_mb": {
+    "router": 114.3,
+    "read": 114.3,
+    "write": 114.3,
+    "process": 114.3,
+    "local": 114.3,
+    "compose": 114.3
+  },
+  "discovery_adapter_mb_total": 571.5,
+  "throughput": {
+    "batch_size": 16,
+    "seconds": {
+      "discovery": 391.1,
+      "retrieval": 1.2,
+      "composition": 405.7,
+      "total": 797.9
+    },
+    "queries_per_min": 14.51
+  },
+  "peak_gpu_gb_batched": 11.18,
+  "oracle_composition_seconds": 419.7,
+  "online_bs1": {
+    "discovery": {
+      "mean_s": 12.83,
+      "p50_s": 12.77,
+      "p95_s": 14.16
+    },
+    "retrieval": {
+      "mean_s": 0.01,
+      "p50_s": 0.01,
+      "p95_s": 0.01
+    },
+    "composition": {
+      "mean_s": 21.6,
+      "p50_s": 21.24,
+      "p95_s": 29.0
+    },
+    "total": {
+      "mean_s": 34.44,
+      "p50_s": 33.62,
+      "p95_s": 42.46
+    },
+    "n": 30
+  },
+  "peak_gpu_gb_bs1": 6.84
+}

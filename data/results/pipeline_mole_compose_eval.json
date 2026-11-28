@@ -1,0 +1,12 @@
+{
+  "format_ok": 99.48,
+  "executable": 99.48,
+  "full_api_plan": 3.11,
+  "step_count_match": 87.05,
+  "arg_name_f1": 80.02,
+  "arg_value_exact": 32.44,
+  "api_recall": 42.06,
+  "api_precision": 43.1,
+  "n_samples": 193,
+  "n_gold_api_steps": 1008
+}

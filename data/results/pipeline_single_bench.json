@@ -1,0 +1,45 @@
+{
+  "config": "single",
+  "split": "test",
+  "n": 193,
+  "adapter_mb": {
+    "single": 114.3,
+    "compose": 114.3
+  },
+  "discovery_adapter_mb_total": 114.3,
+  "throughput": {
+    "batch_size": 16,
+    "seconds": {
+      "discovery": 329.4,
+      "retrieval": 1.2,
+      "composition": 411.4,
+      "total": 742.0
+    },
+    "queries_per_min": 15.61
+  },
+  "peak_gpu_gb_batched": 11.13,
+  "online_bs1": {
+    "discovery": {
+      "mean_s": 14.37,
+      "p50_s": 13.98,
+      "p95_s": 18.24
+    },
+    "retrieval": {
+      "mean_s": 0.01,
+      "p50_s": 0.01,
+      "p95_s": 0.01
+    },
+    "composition": {
+      "mean_s": 21.98,
+      "p50_s": 21.8,
+      "p95_s": 26.86
+    },
+    "total": {
+      "mean_s": 36.36,
+      "p50_s": 35.74,
+      "p95_s": 43.86
+    },
+    "n": 30
+  },
+  "peak_gpu_gb_bs1": 6.43
+}

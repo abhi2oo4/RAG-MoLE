@@ -1,0 +1,11 @@
+{
+  "seconds": {
+    "discovery": 145.4,
+    "retrieval": 1.3,
+    "composition": 700.5,
+    "total": 847.3
+  },
+  "n": 193,
+  "discovery_plans_empty": 0,
+  "peak_gpu_gb": 9.9
+}

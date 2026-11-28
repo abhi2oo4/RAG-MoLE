@@ -1,0 +1,21 @@
+{
+  "n_registry_records": 47075,
+  "n_weak_described_kept_as_distractors": 4355,
+  "n_pilot_samples_total": 50,
+  "n_excluded_unwinnable": 3,
+  "n_eval_samples_used": 47,
+  "baseline_raw_query": {
+    "Hit@1": 31.914893617021278,
+    "Hit@5": 55.319148936170215,
+    "MRR": 0.436975494279775,
+    "Total_Queries": 47,
+    "Valid_Queries": 47
+  },
+  "semantic_canonical_intent_qwen_zeroshot": {
+    "Hit@1": 29.78723404255319,
+    "Hit@5": 44.680851063829785,
+    "MRR": 0.36348567314078845,
+    "Total_Queries": 47,
+    "Valid_Queries": 47
+  }
+}

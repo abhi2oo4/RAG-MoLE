@@ -1,17 +1,43 @@
+# secrets and credentials
 .env
 .env.*
+*.pem
+rag-mole-gpu-policy.json
 
+# environments, caches, editor files
 venv/
-./venv
+__pycache__/
+.vscode/
 
-
-# raw data not to pushed
-data/raw/*
-data/processed/*
-data/intermediate/*
-
-
-
-
+# data and model weights (not distributed)
+data/raw/
+data/processed/
+data/intermediate/
 data/*.log
 data/*.jsonl
+models/
+
+# local only: early exploration, dataset authoring, archives
+data/scripts/
+data/notebooks/
+data/authoring/
+_removed_toolbench/
+data/results/CORE_HYPOTHESIS_TEST.md
+data/results/README.md
+data/results/core_hypothesis_retrieval_chart.png
+data/results/canonicalization_comparison_chart.png
+data/results/canonicalization_comparison_results.json
+data/results/canonicalization_comparison_summary.json
+data/results/fair_subset_retrieval_summary.json
+data/results/gemini_teacher_retrieval_summary.json
+data/results/human_style_dataset.json
+data/results/human_style_retrieval_chart.png
+data/results/human_style_retrieval_summary.json
+data/results/multistep_human_dataset.json
+data/results/multistep_retrieval_chart.png
+data/results/multistep_retrieval_summary.json
+data/results/per_step_retrieval_chart.png
+data/results/per_step_retrieval_summary.json
+
+# project report: contains student details
+report/
